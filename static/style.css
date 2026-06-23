@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.navbar {
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    right: 0;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 15px 30px;
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+.nav-logout {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+.container {
+
+    margin-top: 80px;
+
+}
+
+.stats-card {
+
+    margin-top: 20px;
+
+    padding: 20px;
+
+    background: #f8fafc;
+
+    border-radius: 10px;
+
+    border: 1px solid #e5e7eb;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+
+    color: #333;
+}
+
+input {
+    width: 100%;
+
+    padding: 12px;
+
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+
+    padding: 12px;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #2563eb;
+}
+
+.password-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.password-box input {
+    flex: 1;
+}
+
+.password-box button {
+    width: auto;
+    padding: 12px;
+}
+
+.flash-message {
+
+    background-color: #fee2e2;
+
+    color: #b91c1c;
+
+    padding: 12px;
+
+    margin-bottom: 15px;
+
+    border-radius: 8px;
+
+    text-align: center;
+
+    font-weight: bold;
+}
+
+
+#strengthMessage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+
+.logout-btn {
+
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 12px 20px;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+}
+
+.logout-btn:hover {
+
+    background-color: #1d4ed8;
+
+}
