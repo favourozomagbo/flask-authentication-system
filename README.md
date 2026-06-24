@@ -51,15 +51,15 @@ Authentication-App/
 
 ### Login Page
 
-Add screenshot here
+![Login Page](screenshots/login.png)
 
 ### Signup Page
 
-Add screenshot here
+![Signup Page](screenshots/signup.png)
 
 ### Dashboard
 
-Add screenshot here
+![Dashboard](screenshots/dashboard.png)
 
 ## Installation
 
